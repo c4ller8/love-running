@@ -40,7 +40,22 @@ h1 {
     letter-spacing: 2px;
     color: #252525;
 }
-/* main content */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* Main content */
 main {
     background-color: #ffffff;
     /* make main element take up any suplus space to push footer down */
