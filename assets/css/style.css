@@ -54,7 +54,7 @@ header a {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -157,6 +157,16 @@ main {
     max-height: 300px;
 }
 
+#benefits-image {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
 /* Meetup Times section */
 #times {
     background: url('../images/dublin-city.webp') no-repeat center/cover;
@@ -184,7 +194,7 @@ main {
 }
 
 /* Gallery page */
-#photos img {
+#photos img{
     width: 100%;
     line-height: 1em;
 }
